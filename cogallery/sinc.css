@@ -40,3 +40,10 @@ header h1{
     cursor: pointer;
     border-radius: 5px;
 }
+.g-signin2 {
+    position: relative;
+    left: 15%;
+}
+.data {
+    display: none;
+}
