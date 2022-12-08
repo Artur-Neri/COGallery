@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+html {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+}
+
+.container {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+header h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: lightgray;
+    width: fit-content;
+    margin: 20px auto ;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
